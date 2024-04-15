@@ -1,0 +1,32 @@
+.similar-d-flex {
+  display: flex;
+  align-items: center;
+}
+.similar-products-container {
+  width: 90%;
+  max-width: 1110px;
+}
+.similar-justify-space-between {
+  justify-content: space-between;
+}
+li {
+  width: 300px;
+}
+.similar-img {
+  border-radius: 20px;
+  width: 280px;
+}
+@media (max-width: 767px) {
+  .similar-products-container {
+    width: 80%;
+  }
+  .ul-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  li {
+    margin-bottom: 10px;
+  }
+}
